@@ -40,7 +40,7 @@ const Add = () => {
     <>
       <Tooltip
         onClick={(e) => setOpen(true)}
-        title="Delete"
+        title="Add a Post"
         sx={{
           position: "fixed",
           bottom: 20,
@@ -59,7 +59,7 @@ const Add = () => {
       >
         <Box
           width={400}
-          height={280}
+          height={320}
           bgcolor={"background.default"}
           color={"text.primary"}
           p={3}
